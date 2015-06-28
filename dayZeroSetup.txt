@@ -1,0 +1,14 @@
+INSERT INTO `sogetinlresources`.`user_role` (`role_id`, `roleName`) VALUES ('1', 'Admin');
+INSERT INTO `sogetinlresources`.`user_role` (`role_id`, `roleName`) VALUES ('2', 'User');
+
+
+
+
+INSERT INTO `sogetinlresources`.`users` (`uid`, `name`, `password`) VALUES ('1', 'Test User', 'Admin@123');
+
+
+
+
+INSERT INTO `sogetinlresources`.`customer` (`cid`, `customername`, `location`) VALUES ('1', 'ING', 'Amsterdam');
+INSERT INTO `sogetinlresources`.`customer` (`cid`, `customername`, `location`) VALUES ('2', 'ABN AMRO', 'Mumbai');
+
